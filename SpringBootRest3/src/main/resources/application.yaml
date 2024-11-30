@@ -1,0 +1,22 @@
+
+
+
+
+server:
+    port: 8976
+spring:
+    application:
+        name: SpringBootRestProject
+    datasource:
+        driver-class-name: oracle.jdbc.OracleDriver
+        password: hi
+        url: jdbc:oracle:thin:@localhost:1521:xe
+        username: raja
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.OracleDialect
+                format_sql: true
+        show-sql: true
